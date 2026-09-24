@@ -1,0 +1,20 @@
+# Python 本地环境与缓存
+.venv/
+__pycache__/
+*.pyc
+
+# API 密钥与本地配置
+.streamlit/secrets.toml
+.env
+.env.*
+
+# 本地报价数据库
+*.db
+*.db-*
+
+# 报价表暂不上传，之后单独准备模拟示例
+*.xlsx
+*.xls
+
+# Mac 系统文件
+.DS_Store
